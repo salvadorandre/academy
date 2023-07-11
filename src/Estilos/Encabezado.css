@@ -1,0 +1,37 @@
+.Principal { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    background: linear-gradient(270deg, red, black);
+    height: 150px;
+}
+
+.Principal .logo-principal img{ 
+    width: 300px;
+    object-fit: contain;
+}
+
+.nav-bar { 
+    padding: 15px;
+}
+
+.nav-bar .contenedor-navBar { 
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 64px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav-bar .contenedor-navBar  li { 
+    list-style: none;
+}
+
+.nav-bar .contenedor-navBar li a { 
+    text-decoration: none;
+    color: #ffff;
+    padding: 15px;
+    outline: none;
+    font-size: 18px;
+}

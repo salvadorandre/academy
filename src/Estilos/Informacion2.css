@@ -1,0 +1,31 @@
+.Contenedor-dos { 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: rgb(57, 126, 150);
+    padding: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffff;
+}
+
+.Contenedor-dos .Informacion-dos { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Contenedor-dos .Imagen img { 
+    width: 400px;
+    border-radius: 15px;
+    filter: drop-shadow(0 0 25px #000);
+}
+
+.Contenedor-dos h1 { 
+    font-size: 75px;
+}
+
+.Contenedor-dos p { 
+    font-size: 18px;
+    width: 700px;
+}

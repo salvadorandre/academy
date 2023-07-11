@@ -1,0 +1,30 @@
+.Pie-pagina { 
+    display: flex;
+    justify-content: space-around;
+    padding: 55px;
+    align-items: center;
+    background: #000;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Pie-pagina .Contenedor-pie img { 
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+}
+
+.Pie-pagina .Contenedor-enlaces h1{ 
+    font-size: 45px;
+}
+
+.Pie-pagina .Contenedor-enlaces { 
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.Pie-pagina .Contenedor-enlaces a { 
+    font-size: 18px;
+    text-decoration: none;
+}
